@@ -6,7 +6,7 @@
 /*   By: jeberle <jeberle@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 15:08:39 by jeberle           #+#    #+#             */
-/*   Updated: 2024/10/21 15:12:13 by jeberle          ###   ########.fr       */
+/*   Updated: 2024/10/22 06:50:45 by jeberle          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,3 +66,61 @@ std::ostream& operator<<(std::ostream& os, const Fixed& fixed) {
 	os << fixed.toFloat();
 	return (os);
 }
+
+
+Fixed	Fixed::operator+(const Fixed& other) const {
+
+}
+
+Fixed	Fixed::operator-(const Fixed& other) const {
+
+}
+
+Fixed	Fixed::operator*(const Fixed& other) const {
+
+}
+
+Fixed	Fixed::operator/(const Fixed& other) const {
+
+}
+
+bool	Fixed::operator<(const Fixed& other) const {
+
+}
+
+bool	Fixed::operator>(const Fixed& other) const {
+
+}
+
+bool	Fixed::operator<=(const Fixed& other) const {
+
+}
+
+bool	Fixed::operator>=(const Fixed& other) const {
+
+}
+
+bool	Fixed::operator==(const Fixed& other) const {
+
+}
+
+bool	Fixed::operator!=(const Fixed& other) const {
+
+}
+
+Fixed	Fixed::operator++(int) {
+
+}
+
+Fixed&	Fixed::&operator++() {
+
+}
+
+Fixed	Fixed::operator--(int) {
+
+}
+
+Fixed&	Fixed::&operator--() {
+
+}
+
